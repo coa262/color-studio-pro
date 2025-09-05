@@ -7,7 +7,7 @@
     "build": "npm run F5 && npx next build",
     "start": "npm run F5 && npx next start",
     "lint": "npm run F5 && npx next lint",
-    "F5": "rimraf node_modules package-lock.json && ncu -u && npm install"
+    "F5": "rimraf node_modules package-lock.json && npx npm-check-updates -u && npm install"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
