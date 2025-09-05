@@ -1,13 +1,13 @@
 'use client';
 
 import React, { useState, useCallback } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Input } from '../components/ui/input';
+import { Button } from '../components/ui/button';
+import { Badge } from '../components/ui/badge';
 import { Copy, Palette, RefreshCw } from 'lucide-react';
 import { toast } from 'sonner';
-import { cn } from '@/lib/utils';
+import { cn } from '../lib/utils';
 import {
   hexToRgb,
   rgbToHex,
@@ -23,7 +23,7 @@ import {
   type HSL,
   type HSV,
   type CMYK
-} from '@/lib/color-utils';
+} from '../lib/color-utils';
 
 interface ColorPickerProps {
   initialColor?: string;
