@@ -7,7 +7,7 @@ import ColorPalette from '@/components/ColorPalette';
 import ThemeSelector from '@/components/ThemeSelector';
 
 export default function Home() {
-  const [selectedColor, setSelectedColor] = useState('#3B82F6');
+  const [selectedColor, setSelectedColor] = useState('#00FFB8');
 
   const handleColorSelect = (color: string) => {
     setSelectedColor(color);
