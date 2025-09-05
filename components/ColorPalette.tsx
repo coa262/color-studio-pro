@@ -1,13 +1,13 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Badge } from '../components/ui/badge';
 import { Copy, RefreshCw, Sparkles, Download } from 'lucide-react';
 import { toast } from 'sonner';
-import { cn } from '@/lib/utils';
-import { generateColorPalette, isLightColor, hexToRgb, rgbToHsl } from '@/lib/color-utils';
+import { cn } from '../lib/utils';
+import { generateColorPalette, isLightColor, hexToRgb, rgbToHsl } from '../lib/color-utils';
 
 interface ColorPaletteProps {
   onColorSelect?: (color: string) => void;
