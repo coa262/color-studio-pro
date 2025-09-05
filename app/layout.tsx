@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   keywords: 'color picker, color converter, color palette, HEX, RGB, HSL, HSV, CMYK, design tools, color schemes',
   authors: [{ name: 'Color Studio Pro' }],
   viewport: 'width=device-width, initial-scale=1',
+  generator: 'v0.app'
 };
 
 export default function RootLayout({
