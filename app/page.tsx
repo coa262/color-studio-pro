@@ -1,10 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
 import { Toaster } from 'sonner';
-import ColorPicker from '@/components/ColorPicker';
-import ColorPalette from '@/components/ColorPalette';
-import ThemeSelector from '@/components/ThemeSelector';
+import React, { useState } from 'react';
+import ColorPicker from '../components/ColorPicker';
+import ColorPalette from '../components/ColorPalette';
+import ThemeSelector from '../components/ThemeSelector';
 
 export default function Home() {
   const [selectedColor, setSelectedColor] = useState('#00FFB8');
